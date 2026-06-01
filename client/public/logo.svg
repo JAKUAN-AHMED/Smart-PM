@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Smart PM logo">
+  <defs>
+    <linearGradient id="smartpm-bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7a4bff" />
+      <stop offset="100%" stop-color="#ff5d8f" />
+    </linearGradient>
+    <linearGradient id="smartpm-sheen" x1="0" y1="0" x2="0" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.28" />
+      <stop offset="55%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="14" ry="14" fill="url(#smartpm-bg)" />
+  <rect width="64" height="64" rx="14" ry="14" fill="url(#smartpm-sheen)" />
+
+  <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="14" y="14" width="10" height="28" rx="3" stroke-width="3" opacity="0.55" />
+    <rect x="28" y="14" width="10" height="20" rx="3" stroke-width="3" opacity="0.8" />
+    <rect x="42" y="14" width="8"  height="12" rx="3" stroke-width="3" opacity="0.45" />
+    <path d="M20 46 L29 53 L48 34" stroke-width="5" />
+  </g>
+</svg>
